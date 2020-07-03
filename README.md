@@ -1,24 +1,13 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Part of The Odin Project Rails Course!(https://www.theodinproject.com/lessons/authentication)
 
-* Ruby version
+#Added ruby-gems(Simple_form, Bootstrap4, Devise)
 
-* System dependencies
+#Added Styling using bootstrap
 
-* Configuration
+#Added Post and Usel Model)
 
-* Database creation
+Need to figure out associations between the two models.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Also the forms do not seem to POST for some reason, thus not creating any models.
