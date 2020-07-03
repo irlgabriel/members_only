@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MembersOnly</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <% if notice %>
+      <p class="notice alert-warning"> <%= notice %></p>
+    <% end %>
+    <% if alert %>
+      <p class="alert alert-danger"> <%= alert %></p>
+    <% end %>
+
+    <div class="bg-dark">
+      <div class="row text-center">
+        <div class="col-6"></div>
+        <h3 class='col'><%= link_to 'Home', posts_path%></h1>
+        <h3 class='col'><%= link_to 'Sign up', new_user_registration_path %>
+        <h3 class='col '><%= link_to 'Sign in', new_user_session_path %>
+      </div>
+    </div>
+
+    <div class='container'>
+      
+      <%= yield %>
+    </div>
+    <div class='container' style="height:100px">
+  </body>
+</html>
