@@ -6,8 +6,8 @@ Part of The Odin Project Rails Course!(https://www.theodinproject.com/lessons/au
 
 #Added Styling using bootstrap
 
-#Added Post and Usel Model)
+#Added Post and Usel Model
 
 Need to figure out associations between the two models.
 
-Also the forms do not seem to POST for some reason, thus not creating any models.
+!!!!!!!!!!Also the forms do not seem to POST for some reason, thus not creating any models.
