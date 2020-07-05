@@ -2,24 +2,5 @@
 
 <h1 class="text-center my-3">Posts <%= link_to 'New Post', new_post_path, class: 'btn btn-success' %></h1>
 
-<div class="container text-center">
-  <% @posts.each do |post| %>
-    <div class="card mx-auto my-5 p-3" style="width: 27rem">
-      <h3 class="card-title p-2 text-center"><%= post.title %></h3>
-      <% if !user_signed_in? %>
-        <h6 class="card-subtitle pl-4 text-muted">by CONFIDENTIAL</h6>
-      <% else %>
-        <h6 class="card-subtitle pl-4 text-muted"> by <%= %>
-      <% end%>
-      <div class="card-body">
-        <p class="card-text p-2"> <%= post.body %></p>
-      </div>
-      <div class="card-body">
-        <%= link_to 'Edit', edit_post_path(post), class: 'card-link' %>
-        <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }, class: "card-link" %>
-      </div>
-    </div>
-    
-  <% end %>
-</div>
+<%= render 'feed' %>
 
