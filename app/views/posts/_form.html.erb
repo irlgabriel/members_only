@@ -1,4 +1,4 @@
-<form class="mx-auto" style="width: 50%">
+
 <!--
   <%= simple_form_for post do |f| %>
 
@@ -18,9 +18,9 @@
     <%= link_to 'Back', posts_path, class:'text-center btn btn-secondary' %>
   <% end %>
   -->
-  <%= simple_form_for post do |f| %>
+  <%= simple_form_for post, class:"mx-auto" do |f| %>
     <%= f.input :title , input_html: { class:'form-control'} %>
     <%= f.input :body, input_html: {class:'form-control'} %>
     <%= f.button :submit, class: "btn btn-primary" %>
+
   <% end %>
-</form>
