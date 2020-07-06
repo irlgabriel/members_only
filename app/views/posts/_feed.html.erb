@@ -7,7 +7,7 @@
       <% if !user_signed_in? %>
         <h6 class="card-subtitle pl-4 text-muted">by CONFIDENTIAL</h6>
       <% else %>
-        <h6 class="card-subtitle pl-4 text-muted"> by <%= %>
+        <h6 class="card-subtitle pl-4 text-muted"> by <%= User.find(post.user_id).username %>
       <% end%>
       <div class="card-body">
         <p class="card-text p-2"> <%= post.body %></p>
