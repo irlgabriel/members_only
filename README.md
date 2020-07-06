@@ -8,5 +8,6 @@ Part of The Odin Project Rails Course!(https://www.theodinproject.com/lessons/au
 
 #Added Post and Usel Model
 
-Need to figure out associations between the two models.
+(DONE)Need to figure out associations between the two models.
 
+(DONE)Need to fix Forms
