@@ -6,7 +6,7 @@ Part of The Odin Project Rails Course!(https://www.theodinproject.com/lessons/au
 
 #Added Styling using bootstrap
 
-#Added Post and Usel Model
+#Added Post and User Model
 
 (DONE)Need to figure out associations between the two models.
 
